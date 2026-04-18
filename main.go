@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/fernandoeho/smiddy/cmd"
+)
 
 func main() {
-	fmt.Println("Smiddy — spec-driven sprint CLI")
+	cmd.Execute()
 }
